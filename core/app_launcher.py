@@ -5,9 +5,9 @@ import subprocess
 
 # Mapping app names to their AppUserModelIDs (from Microsoft Store)
 APP_IDS = {
-    "whatsapp": "5319275A.WhatsAppDesktop_cv1g1gvanyjgm!App",
-    "instagram": "Facebook.InstagramBeta_8xx8rvfyw5nnt!App",
-    "spotify": "SpotifyAB.SpotifyMusic_zpdnekdrzrea0!Spotify",
+    "whatsapp": "Add your whatsapp location here",
+    "instagram": "Add your instagram location here",
+    "spotify": "Add your spotify location here",
     "notepad": "notepad.exe",
     "calculator": "calc.exe",
     "paint": "mspaint.exe"
@@ -33,3 +33,4 @@ def launch_app_by_name(app_name):
     except Exception as e:
         print(f"❌ Error launching {app_name}: {e}")
         return False
+
