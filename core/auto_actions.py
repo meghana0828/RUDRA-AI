@@ -47,9 +47,9 @@ def open_local_app(app_name):
                 "notepad": "notepad",
                 "calculator": "calc",
                 "paint": "mspaint",
-                "whatsapp": "shell:AppsFolder\\5319275A.WhatsAppDesktop_cv1g1gvanyjgm!App",
-                "instagram": "shell:AppsFolder\\Facebook.InstagramBeta_8xx8rvfyw5nnt!App",
-                "spotify": "shell:AppsFolder\\SpotifyAB.SpotifyMusic_zpdnekdrzrea0!Spotify"
+                "whatsapp": "Add your whatsapp location here",
+                "instagram": "Add your instagram location here",
+                "spotify": "Add your spotify location here"
             }
             if app_name in app_paths:
                 os.system(f'start {app_paths[app_name]}')
@@ -103,3 +103,4 @@ def send_whatsapp_message(contact_name, message):
     except Exception as e:
         print(f"❌ Failed to send WhatsApp message: {e}")
         return False
+
